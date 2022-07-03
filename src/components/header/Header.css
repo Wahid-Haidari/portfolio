@@ -1,0 +1,79 @@
+header {
+    height:  100vh; /*Viewport Height, 100 means 100% of the screen*/
+    padding-top:  4rem;
+    overflow: hidden; /* It hides the part that are out of the size of the screen */
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*============= CTA ===============*/
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/*============= HEADER SOCIALS ===============*/
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
+}
+
+/*============= HEADSHOT ===============*/
+
+.me {
+    background-color: linear-gradient (var(--color-primary), transparent);
+    width:  14rem;
+    height: 19rem;
+    position: absolute;
+    left: calc(50% - 7rem);
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+/*============= SCROLL DOWN ===============*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*============ MEDIA QUERUES (SMALL DEVICES) ===============*/
+@media screen and (max-width: 1024px){ /* What??? */
+     header {
+        height: 68vh;
+    }
+
+}
+
+    /*============ MEDIA QUERUES (SMALL DEVICES) ===============*/
+@media screen and (max-width: 600px){ /* What??? */
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
