@@ -40,16 +40,16 @@ class About extends Component{
 								<h5>Projects</h5>
 								<small>80+</small>
 							</article>
-
-							<p>
-								My name is Wahid Haidari. I am graduated from UWC ISAK Japan, and now I am a juniour student
-								 studying Computer Science at the University of Oklahoma. I am a web developer and I have had
-								  a few simple projects. Apart from my studies, I have a part time job as a Community Assistant. 
-								  I am fimiliar with Java, C++, HTML, CSS and JavaScript programming languages. 
-							</p>
-
-							<a href="#contact" className='btn btn-primary'>Let's talk</a>
 						</div>
+
+						<p>
+							My name is Wahid Haidari. I am graduated from UWC ISAK Japan, and now I am a juniour student
+							 studying Computer Science at the University of Oklahoma. I am a web developer and I have had
+							  a few simple projects. Apart from my studies, I have a part time job as a Community Assistant. 
+							  I am fimiliar with Java, C++, HTML, CSS and JavaScript programming languages. 
+						</p>
+
+						<a href="#contact" className='btn btn-primary'>Let's talk</a>
 					</div>
 
 				</div>

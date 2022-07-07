@@ -59,10 +59,10 @@ header {
     font-size: 0.9rem;
 }
 
-/*============ MEDIA QUERUES (SMALL DEVICES) ===============*/
+/*============ MEDIA QUERUES (MEDIUM DEVICES) ===============*/
 @media screen and (max-width: 1024px){ /* What??? */
      header {
-        height: 68vh;
+        height: 70vh;
     }
 
 }
