@@ -28,7 +28,7 @@ const data = [
 		id: 3,
 		image: TIC_TAC_TOE,
 		title: 'Tic Tac Toe Game',
-		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
+		github: 'https://github.com/Wahid-Haidari/Connect-3-Game',
 		demo: ''
 
 	}
