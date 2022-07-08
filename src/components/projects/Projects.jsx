@@ -1,41 +1,25 @@
 import React , {Component} from 'react';
 import './projects.css'
-import IMG1 from '../../assets/ahmad-zahir.png';
+import AHMAD_ZAHIR from '../../assets/ahmad-zahir.png';
+import ROBOFRIENDS from '../../assets/robofriends.PNG';
+
 
 const data = [
 	{
 		id: 1,
-		image: IMG1,
-		title: 'Ahmad Zahir App',
-		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
-		demo: 'https://dribbble.com/Alien_pixels'
+		image: ROBOFRIENDS,
+		title: 'Robofriends',
+		github: 'https://github.com/Wahid-Haidari/robofriends',
+		demo: 'wahid-haidari.github.io/robofriends/'
 
 	},
 
 	{
 		id: 2,
-		image: IMG1,
+		image: AHMAD_ZAHIR,
 		title: 'Ahmad Zahir App',
 		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
-		demo: 'https://dribbble.com/Alien_pixels'
-
-	},
-
-	{
-		id: 3,
-		image: IMG1,
-		title: 'Ahmad Zahir App',
-		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
-		demo: 'https://dribbble.com/Alien_pixels'
-
-	},
-
-	{
-		id: 4,
-		image: IMG1,
-		title: 'Ahmad Zahir App',
-		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
-		demo: 'https://dribbble.com/Alien_pixels'
+		demo: ''
 
 	}
 
@@ -48,19 +32,36 @@ const Projects = () => {
 			<h2>Projects</h2>
 			<div className="container portfolio__container">
 			{
-				data.map(({id, image, title, github, demo}) => {
-					return (
-						<article key={id} className="portfolio__item">
-							<div className="portfolio__item-image">
-								<img src={image} alt={title}/>
-							</div>
-							<h3>{title}</h3>
-							<div className='portfolio__item-cta'>
-								<a href={github} class="btn">GitHub</a>
-								<a href={demo} class="btn btn-primary" target="_blank">Live Demo</a>
-							</div>	
-						</article>
-					)			
+				data.map(({id, image, title, github, demo}, index) => {
+					if (index === 1) {
+						return (
+							<article key={id} className="mobile-portfolio__item portfolio__item">
+								<div className="mobile-portfolio__item-image">
+									<img src={image} alt={title}/>
+								</div>
+								<div>
+									<h3>{title}</h3>
+									<div className='portfolio__item-cta'>
+										<a href={github} class="btn">GitHub</a>
+									</div>	
+								</div>
+								
+							</article>
+						)		
+					} else{
+						return (
+							<article key={id} className="portfolio__item">
+								<div className="portfolio__item-image">
+									<img src={image} alt={title}/>
+								</div>
+								<h3>{title}</h3>
+								<div className='portfolio__item-cta'>
+									<a href={github} class="btn">GitHub</a>
+									<a href={demo} class="btn btn-primary" target="_blank">Live Demo</a>
+								</div>	
+							</article>
+						)
+					}			
 				})	
 			}
 			</div>
