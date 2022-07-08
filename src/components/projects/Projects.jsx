@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import './projects.css'
 import AHMAD_ZAHIR from '../../assets/ahmad-zahir.png';
 import ROBOFRIENDS from '../../assets/robofriends.PNG';
+import TIC_TAC_TOE from '../../assets/tic-tac-toe.png';
 
 
 const data = [
@@ -21,6 +22,15 @@ const data = [
 		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
 		demo: ''
 
+	},
+
+	{
+		id: 3,
+		image: TIC_TAC_TOE,
+		title: 'Tic Tac Toe Game',
+		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
+		demo: ''
+
 	}
 
 ]
@@ -33,7 +43,7 @@ const Projects = () => {
 			<div className="container portfolio__container">
 			{
 				data.map(({id, image, title, github, demo}, index) => {
-					if (index === 1) {
+					if (index === 1 || index === 2 ) {
 						return (
 							<article key={id} className="mobile-portfolio__item portfolio__item">
 								<div className="mobile-portfolio__item-image">

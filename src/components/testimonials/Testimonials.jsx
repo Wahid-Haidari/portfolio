@@ -20,14 +20,15 @@ const data = [
 		avatar: Avt1,
 		name: 'Nadeem Akbar',
 		review: 
-			"fhd hsakdf kkasdhf a ashdkfha kahf dsf sfh aksdfh fsadjf asdkhg adskfjdkh dsahkfha kasdhf k dhf ka. ksadfh fka kdsfhdk fsdhfd, askdfh asdifyweufk f,dfdskh kadhfakfhsdafh ha. akdfhealkdhfkhd!"
+			" akhdfkahf df askhf adfh akdfh akdfh dfhaks fhaksdfh f"
 	},
 
 	{
 		avatar: Avt2,
 		name: 'Ghulam Ali Doulat',
 		review: 
-			"fhd hsakdf kkasdhf a ashdkfha kahf dsf sfh aksdfh fsadjf asdkhg adskfjdkh dsahkfha kasdhf k dhf ka. ksadfh fka kdsfhdk fsdhfd, askdfh asdifyweufk f,dfdskh kadhfakfhsdafh ha. akdfhealkdhfkhd!"
+			"Wahid Haidari is a good friend and a helpful classmate. He is hardworking and " +
+			"a responsible student. He is great at team work, and has a creative mind."
 	},
 
 	{
@@ -35,15 +36,7 @@ const data = [
 		name: 'Shohruz Junaidov',
 		review: 
 			"fhd hsakdf kkasdhf a ashdkfha kahf dsf sfh aksdfh fsadjf asdkhg adskfjdkh dsahkfha kasdhf k dhf ka. ksadfh fka kdsfhdk fsdhfd, askdfh asdifyweufk f,dfdskh kadhfakfhsdafh ha. akdfhealkdhfkhd!"
-	},
-
-	{
-		avatar: Avt4,
-		name: 'Jalal Saidi',
-		review: 
-			"fhd hsakdf kkasdhf a ashdkfha kahf dsf sfh aksdfh fsadjf asdkhg adskfjdkh dsahkfha kasdhf k dhf ka. ksadfh fka kdsfhdk fsdhfd, askdfh asdifyweufk f,dfdskh kadhfakfhsdafh ha. akdfhealkdhfkhd!"
 	}
-
 
 ]
 
@@ -51,7 +44,7 @@ class Testimonials extends Component{
 	render(){
 		return(
 			<section id='testimonials'>
-				<h5>Review from clients</h5>
+				<h5>Reviews</h5>
 				<h2>Testimonials</h2>
 
 
