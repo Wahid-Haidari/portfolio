@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import './testimonials.css'
 import Avt1 from '../../assets/nadeem.jpg';
-import Avt2 from '../../assets/nadeem.jpg';
+import Avt2 from '../../assets/ghulam.png';
 import Avt3 from '../../assets/nadeem.jpg';
 import Avt4 from '../../assets/nadeem.jpg';
 

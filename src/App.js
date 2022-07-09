@@ -18,7 +18,6 @@ const App = () => {
     <>
       <Header/>
       <Nav/>
-      <About/>
       <Skills/>
       <Services/>
       <Projects/>
