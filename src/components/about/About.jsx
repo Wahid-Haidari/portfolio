@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import './about.css';
 import '../../index.css';
-import About_Image from '../../assets/about-image.jpg';
+import Headshot from '../../assets/headshot.jpg';
 import {MdWorkOutline} from 'react-icons/md';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -9,15 +9,13 @@ import {VscFolderLibrary} from 'react-icons/vsc';
 class About extends Component{
 	render(){
 		return(
-			<section id="about">
-				<h5>Get to know</h5>
-				<h2>About me</h2>
+			<div >
 
 				<div className="container about__container">
 
 					<div className="about__me">
 						<div className="about__me-image">
-							<img src={About_Image} alt="About image"/>
+							<img src={Headshot} alt="About image"/>
 						</div>
 					</div>
 
@@ -55,7 +53,7 @@ class About extends Component{
 					</div>
 
 				</div>
-			</section>
+			</div>
 		);
 	}
 }

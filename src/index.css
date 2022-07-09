@@ -65,7 +65,7 @@ h1 {
 
 /* Almost every component will have a section tag */
 section { 
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 
 section > h2 , section > h5 {

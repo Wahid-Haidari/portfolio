@@ -62,7 +62,7 @@ header {
 /*============ MEDIA QUERUES (MEDIUM DEVICES) ===============*/
 @media screen and (max-width: 1024px){ /* What??? */
      header {
-        height: 70vh;
+        
     }
 
 }
