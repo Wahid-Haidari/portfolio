@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wahid-haidari/static/css/main.d4e57211.css",
-    "main.js": "/wahid-haidari/static/js/main.76c65001.js",
+    "main.css": "/wahid-haidari/static/css/main.b42ced3d.css",
+    "main.js": "/wahid-haidari/static/js/main.0db09077.js",
     "static/js/787.a239002d.chunk.js": "/wahid-haidari/static/js/787.a239002d.chunk.js",
+    "static/media/ghulam.png": "/wahid-haidari/static/media/ghulam.6056690057232a46715c.png",
     "static/media/ahmad-zahir.png": "/wahid-haidari/static/media/ahmad-zahir.11dba7020a58b73867c7.png",
     "static/media/headshot.jpg": "/wahid-haidari/static/media/headshot.1b93d0d1fb566abcd046.jpg",
     "static/media/nadeem.jpg": "/wahid-haidari/static/media/nadeem.eefb6c51e7f443e839d5.jpg",
-    "static/media/about-image.jpg": "/wahid-haidari/static/media/about-image.1117b3622e2bad02084a.jpg",
     "static/media/robofriends.PNG": "/wahid-haidari/static/media/robofriends.bf20ffa2bae3e7de0b7b.PNG",
     "static/media/tic-tac-toe.png": "/wahid-haidari/static/media/tic-tac-toe.0f0346456b75b4bfb674.png",
     "static/media/resume.pdf": "/wahid-haidari/static/media/resume.00c0dd96bfb19b4b1ea1.pdf",
     "index.html": "/wahid-haidari/index.html",
-    "main.d4e57211.css.map": "/wahid-haidari/static/css/main.d4e57211.css.map",
-    "main.76c65001.js.map": "/wahid-haidari/static/js/main.76c65001.js.map",
+    "main.b42ced3d.css.map": "/wahid-haidari/static/css/main.b42ced3d.css.map",
+    "main.0db09077.js.map": "/wahid-haidari/static/js/main.0db09077.js.map",
     "787.a239002d.chunk.js.map": "/wahid-haidari/static/js/787.a239002d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4e57211.css",
-    "static/js/main.76c65001.js"
+    "static/css/main.b42ced3d.css",
+    "static/js/main.0db09077.js"
   ]
 }
