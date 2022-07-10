@@ -44,7 +44,6 @@ class Testimonials extends Component{
 	render(){
 		return(
 			<section id='testimonials'>
-				<h5>Reviews</h5>
 				<h2>Testimonials</h2>
 
 

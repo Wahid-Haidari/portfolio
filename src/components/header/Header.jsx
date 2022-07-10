@@ -10,14 +10,15 @@ const Header = () => {
 		return (
       		<header>
       			<div className="container header__container">
-      				<h1>Wahidullah Haidari</h1>
+      				<h5 className="name" >Wahidullah Haidari</h5>
+      				<h5 className="email">wahidullahhaidari2@gmail.com</h5>
       				<h5 className="text-light">Full Stack Web Developer</h5>
       				<CTA/>
       				<HeaderSocials/>
       				<div >
       					<About/>
       				</div>
-      				<a href="#contact" className='scroll__down'>Scroll Down</a>
+  
       			</div>
       		</header>
 		);

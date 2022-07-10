@@ -6,7 +6,6 @@ class Skills extends Component{
 	render(){
 		return(
 			<section id="experience">
-				<h5>What skills I have</h5>
 				<h2>Skills</h2>
 				<div className="container experience__container">
 					<div className="experience__frontend">
