@@ -26,15 +26,6 @@ footer a {
 	margin: 0 auto 3rem;
 }
 
-/*
-.footer__socials {
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	margin-bottom: 4rem;
-}
-*/
-
 .footer__socials a {
 	background: var(--color-bg);
 	color: var(--color-white);
@@ -44,10 +35,7 @@ footer a {
 	border: 1px solid transparent;
 }
 
-.footer__socials a:hover{
-	background: transparent;
-	color: var(--color-bg);
-}
+
 
 
 /*============ MEDIA QUERUES (SMALL DEVICES) ===============*/

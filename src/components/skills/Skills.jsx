@@ -63,8 +63,9 @@ class Skills extends Component{
 									<h4>Node JS</h4>
 									<small className="text-light">Beginner</small>
 								</div>
-								
+							
 							</article>
+							{/*
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
@@ -73,6 +74,7 @@ class Skills extends Component{
 								</div>
 								
 							</article>
+							*/}
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
@@ -81,6 +83,7 @@ class Skills extends Component{
 								</div>
 								
 							</article>
+							{/*
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
@@ -89,6 +92,7 @@ class Skills extends Component{
 								</div>
 								
 							</article>
+							*/}
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
@@ -99,6 +103,49 @@ class Skills extends Component{
 							</article>
 						</div>
 						
+					</div>
+
+					<div className="experience__other">
+						<h3>Other skills</h3>
+						<div className="experience__content">
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>Java</h4>
+									<small className="text-light">Experienced</small>
+								</div>
+
+							</article>
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>C/C++</h4>
+									<small className="text-light">Experienced</small>
+								</div>
+								
+							</article>
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>Photoshop</h4>
+									<small className="text-light">Experienced</small>
+								</div>
+							</article>
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>Git/GitHub</h4>
+									<small className="text-light">Beginner</small>
+								</div>
+							</article>
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>Command Line</h4>
+									<small className="text-light">Intermediate</small>
+								</div>
+							</article>
+						</div>
 					</div>
 				</div>
 			</section>

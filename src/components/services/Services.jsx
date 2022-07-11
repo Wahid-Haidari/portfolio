@@ -52,7 +52,7 @@ class Services extends Component{
 						</ul>
 					</article>
 					{/*End of Webdevelopment*/}
-
+					{/*
 					<article className="service">
 						<div className="service__head">
 							<h3>Content Creation</h3>
@@ -73,6 +73,7 @@ class Services extends Component{
 							</li>
 						</ul>
 					</article>	
+					*/}
 					{/*End of Content Creation*/}	
 				</div>
 			</section>
