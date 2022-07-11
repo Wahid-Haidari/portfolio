@@ -16,13 +16,12 @@
 	padding: 1.2rem;
 	border-radius: 1.2rem;
 	text-align: center;
-	border: 1px solid transparent;
 	transition: var(--transition);
 }
 
 .contact__option:hover{
-	background: transparent;
-	border-color: var(--color-primary-variant);
+	background: var(--color-hover);
+	transform: scale(1.02);
 }
 
 .contact__option-icon{
@@ -39,6 +38,7 @@
 
 .contact__option h5:hover{
 	color: var(--color-light);
+	
 }
 
 /* ========== FORM ============ */

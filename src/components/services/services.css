@@ -12,14 +12,14 @@
 }
 
 .service:hover{
-	background: transparent;
-	border-color: var(--color-primary-variant);
+	background: var(--color-hover);
+	transform: scale(1.02);
 }
 
 .service__head {
 	background: var(--color-primary);
 	padding: 2rem;
-	border-radius: 2rem;
+	border-radius: 2rem 2rem 0 0;
 	/*box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.2);*/
 }
 

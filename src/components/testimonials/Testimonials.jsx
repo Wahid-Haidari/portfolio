@@ -6,13 +6,15 @@ import Avt3 from '../../assets/nadeem.jpg';
 import Avt4 from '../../assets/nadeem.jpg';
 
 // import Swiper core and required modules
-import { Pagination} from 'swiper';
+import { Pagination, Navigation } from "swiper";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/navigation";
 
 
 const data = [
@@ -44,14 +46,18 @@ class Testimonials extends Component{
 	render(){
 		return(
 			<section id='testimonials'>
+      			
 				<h2>Testimonials</h2>
 
 
 				<Swiper className='container testimonials__container'
-					modules={[Pagination]}
+					modules={[Pagination, Navigation]}
 				    spaceBetween={40}
 				    slidesPerView={1}
-				    pagination={{ clickable: true }}>
+				    pagination={{ clickable: true }}
+				    navigation={true}
+				    loop={false}
+				    >
 					{
 						data.map(({avatar, name, review}, index) => {
 							return (
