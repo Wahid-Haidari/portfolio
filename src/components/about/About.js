@@ -2,9 +2,6 @@ import React , {Component} from 'react';
 import './about.css';
 import '../../index.css';
 import Headshot from '../../assets/headshot.jpg';
-import {MdWorkOutline} from 'react-icons/md';
-import {FiUsers} from 'react-icons/fi';
-import {VscFolderLibrary} from 'react-icons/vsc';
 
 class About extends Component{
 	render(){
@@ -15,7 +12,7 @@ class About extends Component{
 
 					<div className="about__me">
 						<div className="about__me-image">
-							<img src={Headshot} alt="About image"/>
+							<img src={Headshot} alt="About"/>
 						</div>
 					</div>
 					
@@ -43,10 +40,11 @@ class About extends Component{
 						*/}
 
 						<p>
-							I am a senior student studying Computer Science at the University
-							of Oklahoma. I am an aspiring full stack web developer. I have 
-							worked on several small web and mobile applications. 
-							I am familiar with several web development skills, and platforms.
+							I am an aspiring and passionate software developer with experience in Web Development. 
+							In December 2023, I graduated from the University of Oklahoma with a bachelor's degree in 
+							Computer Science. With my passion for web app development, I learned several web development 
+							languages and frameworks including HTML, CSS, JavaScript, React.js, Tailwind, and SQL. Using these skills, I have worked on several 
+							projects. Additionally, I have some familiarity with Android Studio.
 						</p>
 						{/*
 						<a href="#contact" className='btn btn-primary'>Let's talk</a>

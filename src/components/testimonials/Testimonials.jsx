@@ -22,7 +22,9 @@ const data = [
 		avatar: Avt1,
 		name: 'Nadeem Akbar',
 		review: 
-			" akhdfkahf df askhf adfh akdfh akdfh dfhaks fhaksdfh f"
+			"I've had the pleasure of knowing Wahid since our high school days in Japan, " +
+			"and I can confidently say that his ambition knows no bounds. From our early days " +
+			"of studying together to our journey to the United States, I've witnessed his unwavering determination firsthand."
 	},
 
 	{
@@ -31,13 +33,6 @@ const data = [
 		review: 
 			"Wahid Haidari is a good friend and a helpful classmate. He is hardworking and " +
 			"a responsible student. He is great at team work, and has a creative mind."
-	},
-
-	{
-		avatar: Avt3,
-		name: 'Shohruz Junaidov',
-		review: 
-			"fhd hsakdf kkasdhf a ashdkfha kahf dsf sfh aksdfh fsadjf asdkhg adskfjdkh dsahkfha kasdhf k dhf ka. ksadfh fka kdsfhdk fsdhfd, askdfh asdifyweufk f,dfdskh kadhfakfhsdafh ha. akdfhealkdhfkhd!"
 	}
 
 ]

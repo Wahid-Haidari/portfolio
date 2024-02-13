@@ -1,37 +1,40 @@
 import React , {Component} from 'react';
 import './projects.css'
 import AHMAD_ZAHIR from '../../assets/ahmad-zahir.png';
-import ROBOFRIENDS from '../../assets/robofriends.PNG';
-import TIC_TAC_TOE from '../../assets/tic-tac-toe.png';
+import SOVALL from '../../assets/sovall.PNG';
+import ZANGI_WUSHU_CENTER from '../../assets/zangi-wushu-center.png';
 
 
 const data = [
 	{
 		id: 1,
-		image: ROBOFRIENDS,
-		title: 'Robofriends',
-		github: 'https://github.com/Wahid-Haidari/robofriends',
-		demo: 'wahid-haidari.github.io/robofriends/'
+		image: SOVALL,
+		title: 'Sovall',
+		github: 'https://github.com/JamshedK/SovallMVP',
+		demo: 'https://sovall.com'
 
 	},
 
 	{
 		id: 2,
+		image: ZANGI_WUSHU_CENTER,
+		title: 'Zangi Wushu Center',
+		github: 'https://github.com/Wahid-Haidari/zangi-wushu-center',
+		demo: 'https://wahid-haidari.github.io/zangi-wushu-center/'
+
+	},
+	
+	
+	{
+		id: 3,
 		image: AHMAD_ZAHIR,
 		title: 'Ahmad Zahir App',
 		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
 		demo: ''
 
-	},
-
-	{
-		id: 3,
-		image: TIC_TAC_TOE,
-		title: 'Tic-Tac-Toe Game',
-		github: 'https://github.com/Wahid-Haidari/Connect-3-Game',
-		demo: ''
-
 	}
+
+	
 
 ]
 
@@ -42,7 +45,7 @@ const Projects = () => {
 			<div className="container portfolio__container">
 			{
 				data.map(({id, image, title, github, demo}, index) => {
-					if (index === 1 || index === 2 ) {
+					if (index === 2) {
 						return (
 							<article key={id} className="mobile-portfolio__item portfolio__item">
 								<div className="mobile-portfolio__item-image">

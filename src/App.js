@@ -19,7 +19,7 @@ const App = () => {
       <Header/>
       <Nav/>
       <Skills/>
-      <Services/>
+      {/*<Services/> For now I don't hava any service, uncomment it*/}
       <Projects/>
       <Testimonials/>
       <Contact/>
