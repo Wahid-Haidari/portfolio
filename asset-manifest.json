@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ee615cda.css",
-    "main.js": "/portfolio/static/js/main.66d1027b.js",
-    "static/js/787.a239002d.chunk.js": "/portfolio/static/js/787.a239002d.chunk.js",
-    "static/media/ghulam.png": "/portfolio/static/media/ghulam.6056690057232a46715c.png",
-    "static/media/ahmad-zahir.png": "/portfolio/static/media/ahmad-zahir.11dba7020a58b73867c7.png",
-    "static/media/headshot.jpg": "/portfolio/static/media/headshot.1b93d0d1fb566abcd046.jpg",
-    "static/media/zangi-wushu-center.png": "/portfolio/static/media/zangi-wushu-center.4ddfb53ab08c346fed89.png",
-    "static/media/nadeem.jpg": "/portfolio/static/media/nadeem.eefb6c51e7f443e839d5.jpg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.7421bc5c814423ebf3c6.pdf",
-    "static/media/sovall.PNG": "/portfolio/static/media/sovall.0b54cce24e40b85db3e8.PNG",
-    "index.html": "/portfolio/index.html",
-    "main.ee615cda.css.map": "/portfolio/static/css/main.ee615cda.css.map",
-    "main.66d1027b.js.map": "/portfolio/static/js/main.66d1027b.js.map",
-    "787.a239002d.chunk.js.map": "/portfolio/static/js/787.a239002d.chunk.js.map"
+    "main.css": "/wahid-haidari/static/css/main.ee615cda.css",
+    "main.js": "/wahid-haidari/static/js/main.5a2872d5.js",
+    "static/js/787.a239002d.chunk.js": "/wahid-haidari/static/js/787.a239002d.chunk.js",
+    "static/media/ghulam.png": "/wahid-haidari/static/media/ghulam.6056690057232a46715c.png",
+    "static/media/ahmad-zahir.png": "/wahid-haidari/static/media/ahmad-zahir.11dba7020a58b73867c7.png",
+    "static/media/headshot.jpg": "/wahid-haidari/static/media/headshot.1b93d0d1fb566abcd046.jpg",
+    "static/media/zangi-wushu-center.png": "/wahid-haidari/static/media/zangi-wushu-center.4ddfb53ab08c346fed89.png",
+    "static/media/nadeem.jpg": "/wahid-haidari/static/media/nadeem.eefb6c51e7f443e839d5.jpg",
+    "static/media/resume.pdf": "/wahid-haidari/static/media/resume.7421bc5c814423ebf3c6.pdf",
+    "static/media/sovall.PNG": "/wahid-haidari/static/media/sovall.0b54cce24e40b85db3e8.PNG",
+    "index.html": "/wahid-haidari/index.html",
+    "main.ee615cda.css.map": "/wahid-haidari/static/css/main.ee615cda.css.map",
+    "main.5a2872d5.js.map": "/wahid-haidari/static/js/main.5a2872d5.js.map",
+    "787.a239002d.chunk.js.map": "/wahid-haidari/static/js/787.a239002d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee615cda.css",
-    "static/js/main.66d1027b.js"
+    "static/js/main.5a2872d5.js"
   ]
 }
