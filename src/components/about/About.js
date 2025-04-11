@@ -40,11 +40,14 @@ class About extends Component{
 						*/}
 
 						<p>
-							I am an aspiring and passionate software developer with experience in Web Development. 
-							In December 2023, I graduated from the University of Oklahoma with a bachelor's degree in 
-							Computer Science. With my passion for web app development, I learned several web development 
-							languages and frameworks including HTML, CSS, JavaScript, React.js, Tailwind, and SQL. Using these skills, I have worked on several 
-							projects. Additionally, I have some familiarity with Android Studio.
+						I am a passionate and aspiring software developer with hands-on experience in web development. 
+						In December 2023, I earned my Bachelor's degree in Computer Science from the University of 
+						Oklahoma, and I am currently pursuing a Master's degree in Management of Information and Technology 
+						(MIT) at the same university. Driven by my enthusiasm for building dynamic and user-friendly web 
+						applications, I have gained proficiency in a range of web technologies, including HTML, CSS, 
+						JavaScript, React.js, Tailwind CSS, SQL, and FastAPI. I’ve applied these skills across several 
+						projects that showcase both front-end and back-end development. Additionally, I have some 
+						familiarity with Android Studio and mobile app development, expanding my versatility as a developer.
 						</p>
 						{/*
 						<a href="#contact" className='btn btn-primary'>Let's talk</a>

@@ -15,7 +15,7 @@ class Skills extends Component{
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>HTML</h4>
-									<small className="text-light">Experienced</small>
+									<small className="text-light">Advanced</small>
 								</div>
 
 							</article>
@@ -23,31 +23,30 @@ class Skills extends Component{
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>CSS</h4>
-									<small className="text-light">Experienced</small>
+									<small className="text-light">Intermediate</small>
 								</div>
-								
+							</article>
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>CSS</h4>
+									<small className="text-light">Intermediate</small>
+								</div>
 							</article>
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>JavaScript</h4>
-									<small className="text-light">Experienced</small>
+									<small className="text-light">Advanced</small>
 								</div>
 								
 							</article>
+			
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
-									<h4>Bootstrap</h4>
-									<small className="text-light">Beginner</small>
-								</div>
-								
-							</article>
-							<article className='experience__details'>
-								<BsFillPatchCheckFill className='experience__details-icon'/>
-								<div>
-									<h4>ReactJS</h4>
-									<small className="text-light">Intermediate</small>
+									<h4>React.js</h4>
+									<small className="text-light">Advanced</small>
 								</div>
 								
 							</article>
