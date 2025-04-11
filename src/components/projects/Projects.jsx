@@ -1,17 +1,17 @@
-import React , {Component} from 'react';
 import './projects.css'
 import AHMAD_ZAHIR from '../../assets/ahmad-zahir.png';
-import SOVALL from '../../assets/sovall.PNG';
+import JOB_TRACKER from '../../assets/job-tracker.png';
 import ZANGI_WUSHU_CENTER from '../../assets/zangi-wushu-center.png';
+import IT_SUPPORT from '../../assets/it-support.PNG'
 
 
 const data = [
 	{
 		id: 1,
-		image: SOVALL,
-		title: 'Sovall',
-		github: 'https://github.com/JamshedK/SovallMVP',
-		demo: 'https://sovall.com'
+		image: JOB_TRACKER,
+		title: 'Job Tracker',
+		github: 'https://github.com/Wahid-Haidari/JobTracker',
+		demo: ''
 
 	},
 
@@ -23,10 +23,18 @@ const data = [
 		demo: 'https://wahid-haidari.github.io/zangi-wushu-center/'
 
 	},
+
+	{
+		id: 3,
+		image: IT_SUPPORT,
+		title: 'IT Support Chatbot',
+		github: 'https://github.com/Wahid-Haidari/itsupport_ai'
+
+	},
 	
 	
 	{
-		id: 3,
+		id: 4,
 		image: AHMAD_ZAHIR,
 		title: 'Ahmad Zahir App',
 		github: 'https://github.com/Wahid-Haidari/Ahmad-Zahir-App',
@@ -45,7 +53,7 @@ const Projects = () => {
 			<div className="container portfolio__container">
 			{
 				data.map(({id, image, title, github, demo}, index) => {
-					if (index === 2) {
+					if (index === 3) {
 						return (
 							<article key={id} className="mobile-portfolio__item portfolio__item">
 								<div className="mobile-portfolio__item-image">

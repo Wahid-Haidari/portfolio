@@ -26,20 +26,21 @@ class Skills extends Component{
 									<small className="text-light">Intermediate</small>
 								</div>
 							</article>
+
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
-									<h4>CSS</h4>
+									<h4>Tailwind CSS</h4>
 									<small className="text-light">Intermediate</small>
 								</div>
 							</article>
+
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>JavaScript</h4>
 									<small className="text-light">Advanced</small>
-								</div>
-								
+								</div>	
 							</article>
 			
 							<article className='experience__details'>
@@ -47,8 +48,7 @@ class Skills extends Component{
 								<div>
 									<h4>React.js</h4>
 									<small className="text-light">Advanced</small>
-								</div>
-								
+								</div>	
 							</article>
 						</div>
 					</div>
@@ -59,49 +59,43 @@ class Skills extends Component{
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
-									<h4>Node JS</h4>
-									<small className="text-light">Beginner</small>
+									<h4>SQL</h4>
+									<small className="text-light">Advanced</small>
 								</div>
-							
 							</article>
-							{/*
+							
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
-									<h4>MongoDB</h4>
-									<small className="text-light">Not Experienced</small>
-								</div>
-								
+									<h4>FastAPI</h4>
+									<small className="text-light">Advanced</small>
+								</div>								
 							</article>
-							*/}
+		
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>PHP</h4>
 									<small className="text-light">Beginner</small>
-								</div>
-								
+								</div>								
 							</article>
-							{/*
-							<article className='experience__details'>
-								<BsFillPatchCheckFill className='experience__details-icon'/>
-								<div>
-									<h4>MySQL</h4>
-									<small className="text-light">Not Experienced</small>
-								</div>
-								
-							</article>
-							*/}
+						
 							<article className='experience__details'>
 								<BsFillPatchCheckFill className='experience__details-icon'/>
 								<div>
 									<h4>Python</h4>
 									<small className="text-light">Intermediate</small>
-								</div>
-								
+								</div>								
 							</article>
-						</div>
-						
+							<article className='experience__details'>
+								<BsFillPatchCheckFill className='experience__details-icon'/>
+								<div>
+									<h4>SQLite</h4>
+									<small className="text-light">Intermediate</small>
+								</div>								
+							</article>
+
+						</div>						
 					</div>
 
 					<div className="experience__other">
