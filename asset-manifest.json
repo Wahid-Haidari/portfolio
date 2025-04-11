@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wahid-haidari/static/css/main.ee615cda.css",
-    "main.js": "/wahid-haidari/static/js/main.1aaa9b7d.js",
+    "main.js": "/wahid-haidari/static/js/main.18be91d7.js",
     "static/js/787.a239002d.chunk.js": "/wahid-haidari/static/js/787.a239002d.chunk.js",
     "static/media/ghulam.png": "/wahid-haidari/static/media/ghulam.6056690057232a46715c.png",
     "static/media/ahmad-zahir.png": "/wahid-haidari/static/media/ahmad-zahir.11dba7020a58b73867c7.png",
@@ -9,14 +9,15 @@
     "static/media/zangi-wushu-center.png": "/wahid-haidari/static/media/zangi-wushu-center.4ddfb53ab08c346fed89.png",
     "static/media/nadeem.jpg": "/wahid-haidari/static/media/nadeem.eefb6c51e7f443e839d5.jpg",
     "static/media/resume.pdf": "/wahid-haidari/static/media/resume.21d1a5572f420984a2af.pdf",
-    "static/media/sovall.PNG": "/wahid-haidari/static/media/sovall.0b54cce24e40b85db3e8.PNG",
+    "static/media/job-tracker.png": "/wahid-haidari/static/media/job-tracker.2c79ff612b27b7b16f6f.png",
+    "static/media/it-support.PNG": "/wahid-haidari/static/media/it-support.46f0bffd67ff9af88a27.PNG",
     "index.html": "/wahid-haidari/index.html",
     "main.ee615cda.css.map": "/wahid-haidari/static/css/main.ee615cda.css.map",
-    "main.1aaa9b7d.js.map": "/wahid-haidari/static/js/main.1aaa9b7d.js.map",
+    "main.18be91d7.js.map": "/wahid-haidari/static/js/main.18be91d7.js.map",
     "787.a239002d.chunk.js.map": "/wahid-haidari/static/js/787.a239002d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee615cda.css",
-    "static/js/main.1aaa9b7d.js"
+    "static/js/main.18be91d7.js"
   ]
 }
