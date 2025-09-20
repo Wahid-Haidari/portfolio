@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wahid-haidari/static/css/main.ee615cda.css",
-    "main.js": "/wahid-haidari/static/js/main.067a2a7b.js",
+    "main.js": "/wahid-haidari/static/js/main.b45f9de7.js",
     "static/js/787.a239002d.chunk.js": "/wahid-haidari/static/js/787.a239002d.chunk.js",
     "static/media/ghulam.png": "/wahid-haidari/static/media/ghulam.6056690057232a46715c.png",
     "static/media/ahmad-zahir.png": "/wahid-haidari/static/media/ahmad-zahir.11dba7020a58b73867c7.png",
@@ -13,11 +13,11 @@
     "static/media/it-support.PNG": "/wahid-haidari/static/media/it-support.46f0bffd67ff9af88a27.PNG",
     "index.html": "/wahid-haidari/index.html",
     "main.ee615cda.css.map": "/wahid-haidari/static/css/main.ee615cda.css.map",
-    "main.067a2a7b.js.map": "/wahid-haidari/static/js/main.067a2a7b.js.map",
+    "main.b45f9de7.js.map": "/wahid-haidari/static/js/main.b45f9de7.js.map",
     "787.a239002d.chunk.js.map": "/wahid-haidari/static/js/787.a239002d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee615cda.css",
-    "static/js/main.067a2a7b.js"
+    "static/js/main.b45f9de7.js"
   ]
 }
