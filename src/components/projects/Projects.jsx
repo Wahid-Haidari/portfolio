@@ -11,7 +11,7 @@ const data = [
 		image: JOB_TRACKER,
 		title: 'Job Tracker',
 		github: 'https://github.com/Wahid-Haidari/JobTracker',
-		demo: 'job-tracker-xkmo.onrender.com/'
+		demo: 'https://job-tracker-xkmo.onrender.com/'
 
 	},
 
