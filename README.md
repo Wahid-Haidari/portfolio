@@ -1,4 +1,5 @@
 # Wahid Haidari – Portfolio Website
+# wahid-haidari.github.io/wahid-haidari/
 
 ## Overview
 This is my personal portfolio website, showcasing my skills, projects, and background. Built with React, Tailwind CSS, and hosted via GitHub Pages, it presents a clean and responsive design that highlights my work in software & app development.
